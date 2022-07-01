@@ -1,6 +1,17 @@
+/*
+ * File: 0-positive_or_negative.c
+ * Auth: Daniel K Kioko
+ */
+
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 
+/** 
+ * main - state positive, negative or zero
+ *
+ * Return: Always 0
+ */
 int main(void)
 {
 	int n;
