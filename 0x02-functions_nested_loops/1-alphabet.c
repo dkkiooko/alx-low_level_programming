@@ -5,15 +5,15 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * void - prints lowercase alphabet
- * then new line
+ * Description - prints lowercase alphabet
+ *
  * Return: nothing
  */
 void print_alphabet(void)
 {
 	int i = 97;
 
-	for (i; i <=122; i++)
+	for (i; i <= 122; i++)
 	{
 		_putchar(i);
 	}
