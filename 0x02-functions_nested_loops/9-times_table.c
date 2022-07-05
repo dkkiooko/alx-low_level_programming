@@ -1,0 +1,40 @@
+/*
+ * File: 9-times_table.c
+ * Auth: Daniel Kioko
+ */
+#include <stdio.h>
+#include "main.h"
+/**
+ * times_table - returns a times_table
+ * Returns: nothing
+ */
+void times_table(void)
+{
+	int i, j, res;
+
+	for (i = 0; i <= 9; i++)
+	{
+		for (j = 0; j <= 9; j++)
+		{
+			rest = (i * j);
+			if (j != 0)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
+			if (res >= 10)
+			{
+				_putchar((res / 10) + '0');
+				_putchar((res % 10) + '0');
+			}
+			else if (res < 10 && j != 0)
+			{
+				_putchar(' ');
+				_putchar((rest % 10) + '0');
+			}
+			else
+				_putchar((res % 10) + '0');
+		}
+		_putchar('\n');
+	}
+}
