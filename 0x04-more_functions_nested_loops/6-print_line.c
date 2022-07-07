@@ -13,9 +13,14 @@ void print_line(int n)
 		_putchar('\n');
 	else
 	{
-		while (n--)
+		int line;
+
+		if (n > 0)
 		{
-			_putchar('_');
+			for (line = 0; line < n; line++)
+			{
+				_putchar(95);
+			}
 		}
 		_putchar('\n');
 	}
