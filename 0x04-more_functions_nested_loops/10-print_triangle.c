@@ -22,7 +22,7 @@ void print_triangle(int size)
 				{
 					_putchar(' ');
 				}
-				if (triangle + spacer >= size - 1)
+				if (triangle + spacer >= size + 1)
 				{
 					_putchar('#');
 				}
