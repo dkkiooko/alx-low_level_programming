@@ -9,8 +9,6 @@
  */
 void print_array(int *a, int n)
 {
-	int n = 0;
-
 	while (--n)
 	{
 		printf("%d, ", a[n]);
