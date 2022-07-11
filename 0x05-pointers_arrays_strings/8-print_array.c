@@ -1,7 +1,7 @@
 /*
  * Auth: Dan
  */
-include "main.h"
+#include "main.h"
 /**
  * print_array - prints n elemts of an array
  * @a: pointer to the array
