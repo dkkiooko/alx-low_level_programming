@@ -2,6 +2,7 @@
  * Auth: Dan
  */
 #include "main.h"
+#include <stdio.h>
 /**
  * print_array - prints n elemts of an array
  * @a: pointer to the array
