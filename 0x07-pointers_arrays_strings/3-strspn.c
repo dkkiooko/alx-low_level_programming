@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strspn - gets the length of a prefix substring
- * @s: string to be compared to 
+ * @s: string to be compared to
  * @accept: string to compare
  * Return: number of bytes in s consisting of accept
  */
