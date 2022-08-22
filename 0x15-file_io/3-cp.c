@@ -1,5 +1,4 @@
 #include "main.h"
-void closer(int arg_files);
 /**
  * main - entry point
  * @argc: number of arguments
@@ -39,7 +38,7 @@ int main(int argc, char *argv[])
 		num1 = read(file_from, buf, 1024);
 		if (num1 == -1)
 		{
-			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[1]);
+			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 			exit(98);
 		}
 		num2 = write(file_to, buf, num1);
